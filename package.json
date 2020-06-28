@@ -1,0 +1,26 @@
+{
+    "name": "learnc",
+    "displayName": "LearnC",
+    "description": "With the help of this Extension you can easily learn C language with all the steps and Documentation of each and every use. We have Also Included the Datastructure in it.",
+    "version": "1.0.0",
+    "publisher": "yash",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "icon": "cf.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iyashjayesh/vscode-LearnC.git"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "c",
+                "path": "./snippets/c-allcmd.json"
+            }
+        ]
+    }
+}
